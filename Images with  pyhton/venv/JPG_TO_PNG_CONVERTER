@@ -1,0 +1,6 @@
+import sys
+import  os
+from PIL import  Image
+image_folder =sys.argv[0]
+output_folder =sys.argv[1]
+print(image_folder,output_folder)

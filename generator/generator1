@@ -1,0 +1,8 @@
+def make_list(num):
+    result=[]
+    for i in range(num):
+        result.append(i)
+    return  result
+new_list =make_list(100)
+# print(list(range(10000)))
+print(new_list)
